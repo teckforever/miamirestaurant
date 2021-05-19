@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url("../../Assets/imgDeluxe.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.header__navbar {
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    z-index: 300;
+}
+
+.header__title {
+    color: #fff;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+
+.header__main {    
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 400;
+}
+
+.header__name1 {
+    font-family: "Girassol", cursive;
+    font-size: 73px;
+    color: #fff;
+    letter-spacing: 5pt;
+}
+
+.header__name2 {
+    font-family: "Girassol", cursive;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.header__drop {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,69 @@
+.meat-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.meat-section__description {
+    width: 50%;
+    padding: 20px;
+}
+
+.meat-section__slider {
+    width: 50%;
+    padding: 20px;
+}
+
+.meat-section__title {
+    text-align: center;
+    font-size: 33px;
+    color: #0388a6;
+}
+
+.meat-section__parrafo {
+    color: gray;
+    font-size: 23px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    height: 400px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .meat-section {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .meat-section__description {
+        width: 100%;
+        padding: 10px 8px;
+    }
+
+    .meat-section__title {
+        font-size: 23px;
+    }
+
+    .meat-section__parrafo {
+        color: gray;
+        font-size: 20px;
+    }
+
+    .meat-section__slider {
+        width: 100%;
+        padding: 10px 8px;
+    }
+}
