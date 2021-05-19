@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.30759935.chunk.css",
+    "main.js": "./static/js/main.20a76032.chunk.js",
+    "main.js.map": "./static/js/main.20a76032.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.e2e29e7b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.e2e29e7b.js.map",
+    "static/css/2.04b7835e.chunk.css": "./static/css/2.04b7835e.chunk.css",
+    "static/js/2.48506822.chunk.js": "./static/js/2.48506822.chunk.js",
+    "static/js/2.48506822.chunk.js.map": "./static/js/2.48506822.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.04b7835e.chunk.css.map": "./static/css/2.04b7835e.chunk.css.map",
+    "static/css/main.30759935.chunk.css.map": "./static/css/main.30759935.chunk.css.map",
+    "static/js/2.48506822.chunk.js.LICENSE.txt": "./static/js/2.48506822.chunk.js.LICENSE.txt",
+    "static/media/alexandru-bogdan.5cfa8733.jpg": "./static/media/alexandru-bogdan.5cfa8733.jpg",
+    "static/media/emerson-vieira.9f2819d3.jpg": "./static/media/emerson-vieira.9f2819d3.jpg",
+    "static/media/emerson-vieira1.8e9c94ac.jpg": "./static/media/emerson-vieira1.8e9c94ac.jpg",
+    "static/media/styles.scss": "./static/media/imgDeluxe.97a3d379.jpg",
+    "static/media/josh-olalde.4b6343c6.jpg": "./static/media/josh-olalde.4b6343c6.jpg",
+    "static/media/mf-evelyn.14f25492.jpg": "./static/media/mf-evelyn.14f25492.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2e29e7b.js",
+    "static/css/2.04b7835e.chunk.css",
+    "static/js/2.48506822.chunk.js",
+    "static/css/main.30759935.chunk.css",
+    "static/js/main.20a76032.chunk.js"
+  ]
+}
