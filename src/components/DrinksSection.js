@@ -3,11 +3,11 @@ import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // IMAGENES REVISAR POR QUE SI SE MUEVEN SE DAÑA LA RUTA
-import imgCarne1 from '../Assets/sliderCarnes/alexandru-bogdan.jpg'
-import imgCarne2 from '../Assets/sliderCarnes/emerson-vieira.jpg'
-import imgCarne3 from '../Assets/sliderCarnes/emerson-vieira1.jpg'
-import imgCarne4 from '../Assets/sliderCarnes/josh-olalde.jpg'
-import imgCarne5 from '../Assets/sliderCarnes/mf-evelyn.jpg'
+import imgBebidas1 from '../Assets/sliderBebidas/kobby-mendez.jpg'
+import imgBebidas2 from '../Assets/sliderBebidas/douglas-lopez.jpg'
+import imgBebidas3 from '../Assets/sliderBebidas/joseph-sun.jpg'
+import imgBebidas4 from '../Assets/sliderBebidas/licor-beirao.jpg'
+import imgBebidas5 from '../Assets/sliderBebidas/moritz-mentges.jpg'
 
 // Import Swiper styles
 import "swiper/swiper.min.css";
@@ -20,7 +20,7 @@ import SwiperCore, {
 // install Swiper modules
 SwiperCore.use([Pagination]);
 
-export const MeatSection = () => {
+export const DrinksSection = () => {
 
     return (
         <div className="meat-section">
@@ -28,11 +28,11 @@ export const MeatSection = () => {
             <div className="meat-section__description">
 
                 <h4 className="meat-section__title">
-                    Carnes
+                    Bebidas
                 </h4>
 
                 <p className="meat-section__parrafo p-gray">
-                    Prueba nuestra exquisita carne acompañada de una ensalada de tomate, ademas podras agregarle unas deliciosas papas rústicas, podras pedir tu carne en el termino de cocción que prefieras.
+                    Prueba nuestras deliciosas bebidas, vinos, gaseosas, jugos naturales, licores nacionales e internacionales.
                 </p>
 
             </div>
@@ -40,19 +40,19 @@ export const MeatSection = () => {
             <div className="meat-section__slider">
                 <Swiper pagination={true} className="mySwiper">
                     <SwiperSlide>
-                        <img src={imgCarne1} alt="" />
+                        <img src={imgBebidas1} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={imgCarne2} alt="" />
+                        <img src={imgBebidas2} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={imgCarne3} alt="" />
+                        <img src={imgBebidas3} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={imgCarne4} alt="" />
+                        <img src={imgBebidas4} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={imgCarne5} alt="" />
+                        <img src={imgBebidas5} alt="" />
                     </SwiperSlide>
                 </Swiper>
             </div>

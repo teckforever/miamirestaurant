@@ -3,11 +3,11 @@ import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // IMAGENES REVISAR POR QUE SI SE MUEVEN SE DAÑA LA RUTA
-import imgCarne1 from '../Assets/sliderCarnes/alexandru-bogdan.jpg'
-import imgCarne2 from '../Assets/sliderCarnes/emerson-vieira.jpg'
-import imgCarne3 from '../Assets/sliderCarnes/emerson-vieira1.jpg'
-import imgCarne4 from '../Assets/sliderCarnes/josh-olalde.jpg'
-import imgCarne5 from '../Assets/sliderCarnes/mf-evelyn.jpg'
+import imgSalad1 from '../Assets/sliderEnsaladas/brooke-lark.jpg'
+import imgSalad2 from '../Assets/sliderEnsaladas/chris-a-tweten.jpg'
+import imgSalad3 from '../Assets/sliderEnsaladas/dan-gold.jpg'
+import imgSalad4 from '../Assets/sliderEnsaladas/jez-timms.jpg'
+import imgSalad5 from '../Assets/sliderEnsaladas/jonathan-farber.jpg'
 
 // Import Swiper styles
 import "swiper/swiper.min.css";
@@ -20,19 +20,19 @@ import SwiperCore, {
 // install Swiper modules
 SwiperCore.use([Pagination]);
 
-export const MeatSection = () => {
+export const SaladSection = () => {
 
     return (
-        <div className="meat-section">
+        <div className="meat-section bg-black">
 
             <div className="meat-section__description">
 
                 <h4 className="meat-section__title">
-                    Carnes
+                    Ensaladas
                 </h4>
 
-                <p className="meat-section__parrafo p-gray">
-                    Prueba nuestra exquisita carne acompañada de una ensalada de tomate, ademas podras agregarle unas deliciosas papas rústicas, podras pedir tu carne en el termino de cocción que prefieras.
+                <p className="meat-section__parrafo p-white">
+                    Prueba nuestra deliciosa ensalada hecha con amor y con los mas esquisitos ingredientes, con la mas exclusiva seleccion de vegetales, cuidados de la mejor manera para que la disfrutes con tu familia
                 </p>
 
             </div>
@@ -40,19 +40,19 @@ export const MeatSection = () => {
             <div className="meat-section__slider">
                 <Swiper pagination={true} className="mySwiper">
                     <SwiperSlide>
-                        <img src={imgCarne1} alt="" />
+                        <img src={imgSalad1} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={imgCarne2} alt="" />
+                        <img src={imgSalad2} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={imgCarne3} alt="" />
+                        <img src={imgSalad3} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={imgCarne4} alt="" />
+                        <img src={imgSalad4} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={imgCarne5} alt="" />
+                        <img src={imgSalad5} alt="" />
                     </SwiperSlide>
                 </Swiper>
             </div>
