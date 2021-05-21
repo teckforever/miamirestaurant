@@ -3,6 +3,8 @@ import { Header } from './components/Header'
 import { MeatSection } from './components/MeatSection'
 import { SaladSection } from './components/SaladSection'
 import { DrinksSection } from './components/DrinksSection'
+import { ContactSection } from './components/ContactSection'
+import { FooterSection } from './components/FooterSection'
 
 export const MiamiUnderground = () => {
   return (
@@ -11,6 +13,8 @@ export const MiamiUnderground = () => {
       <MeatSection />
       <SaladSection />
       <DrinksSection />
+      <ContactSection />
+      <FooterSection />
     </div>
   )
 }
